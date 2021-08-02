@@ -2,6 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
+
 # the home of the entire thing, only consist of text.
 # This mean for landing page where you can tell what your web(or API in this case) is all about.
 @app.route("/")
@@ -22,7 +23,8 @@ def help():
     ]}
 
 
-# another part of the API, this one is returning value with the name of "response" and it's value wich is "Hello"
+# another part of the API, this one is returning value
+# with the name of "response" and it's value wich is "Hello"
 @app.route("/hello")
 def hello():
     return {"response": "hello"}
