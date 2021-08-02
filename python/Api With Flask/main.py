@@ -6,7 +6,7 @@ app = Flask(__name__)
 # This mean for landing page where you can tell what your web(or API in this case) is all about.
 @app.route("/")
 def home():
-  return "Welcome to home!"
+    return "Welcome to home!"
 
 
 # Part of the API, this one is send the user all available command
@@ -37,7 +37,8 @@ def hello():
 # or just simply run / wich is does not exist in our code
 @app.errorhandler(404)
 def code_404():
-    return "Whoops, this page/method does not exist, please re check your url.", 404
+    return """Whoops, this page/method does not exist, 
+    please re check your url.""", 404
 
 
 if __name__ == "__main__":
