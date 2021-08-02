@@ -21,5 +21,7 @@ Example in chrome:
 
 If what you see is similar with above then congrats, your API is working correctly. Feel free to add more and more thing.
 
+But hey how can I use it? Similar to how you use another API. Maybe you want to use public domain if you want it to be public instead of using your ip or localhost.
+
 # References
 [`Flask Docs`](https://flask.palletsprojects.com/)
