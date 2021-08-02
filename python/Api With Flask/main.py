@@ -4,7 +4,8 @@ app = Flask(__name__)
 
 
 # the home of the entire thing, only consist of text.
-# This mean for landing page where you can tell what your web(or API in this case) is all about.
+# This mean for landing page
+# where you can tell what your web(or API in this case) is all about.
 @app.route("/")
 def home():
     return "Welcome to home!"
