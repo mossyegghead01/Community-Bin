@@ -40,8 +40,7 @@ def hello():
 # or just simply run / wich is does not exist in our code
 @app.errorhandler(404)
 def code_404():
-    return """Whoops, this page/method does not exist, 
-    please re check your url.""", 404
+    return "This page/method does not exist, please re check your url.", 404
 
 
 if __name__ == "__main__":
